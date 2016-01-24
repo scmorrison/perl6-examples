@@ -4,18 +4,28 @@ use v6;
 
 =begin pod
 =head1 NAME
+
 find-adjacent-higher-lower-values.pl6
+
 =head1 DESCRIPTION
+
 For a given array of integers find the nearest higher and lower
 values for a single integer value.
+
 =head1 SYNOPSIS
+
 	find-adjacent-nums([10,20,30,40,50], 33).say;
   # output
   closest => 30, higher => 40, lower => 30 
+
 =head1 AUTHOR
+
 Sam Morrison
+
 =head1 LICENSE
+
 This script is free software; you can redistribute it and/or modify it under the Artistic License 2.0.
+
 =end pod
 
 sub find-adjacent-nums (@nums, Int $num) {
