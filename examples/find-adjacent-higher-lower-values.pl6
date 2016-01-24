@@ -35,7 +35,7 @@ sub find-adjacent-nums (@nums, Int $num) {
                 higher => $max,
                 closest => $num;
   
-	for @nums.sort.kv -> $i, $v {
+  for @nums.sort.kv -> $i, $v {
     if ($num >= $v) { %results<lower> = $v; };
     if ($num <= $v) { %results<higher> = $num < $min ?? @nums[$i+1] !! @nums[$i]; last; };
   };
