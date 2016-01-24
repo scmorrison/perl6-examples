@@ -52,6 +52,6 @@ my @ints = [100...125];
 @nums.say;
 @nums.elems.say;
 for @ints {
-	"For $_: ".say;
-	find-adjacent-nums(@nums,$_).say;
+  "For $_: ".say;
+  find-adjacent-nums(@nums,$_).say;
 }
