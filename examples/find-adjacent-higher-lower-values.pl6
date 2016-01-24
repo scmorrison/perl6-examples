@@ -15,8 +15,7 @@ values for a single integer value.
 =head1 AUTHOR
 Sam Morrison
 =head1 LICENSE
-This library is free software; you can redistribute it and/or 
-modify it under the Artistic License 2.0.
+This script is free software; you can redistribute it and/or modify it under the Artistic License 2.0.
 =end pod
 
 sub find-adjacent-nums (@nums, Int $num) {
