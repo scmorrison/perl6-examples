@@ -14,7 +14,7 @@ values for a single integer value.
 
 =head1 SYNOPSIS
 
-	find-adjacent-nums([10,20,30,40,50], 33).say;
+  find-adjacent-nums([10,20,30,40,50], 33).say;
   # output
   closest => 30, higher => 40, lower => 30 
 
