@@ -7,6 +7,7 @@ This repo contains solutions to problems I have solved with Perl 6 while develop
 ```bash
 ├── examples/ - .pl6 files containing Perl 6 examples
 └── scripts/ - Non-Perl 6 scripts to simplify Perl 6 setup, repetetive tasks, etc.
+```
 
 # Authors
 
